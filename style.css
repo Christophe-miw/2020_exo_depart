@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+.nav {
+  width: 100%;
+  background-color: rgb(0, 0, 95);
+  color: white;
+  position: absolute;
+  top: 0%;
+}
+.nav h3 {
+  margin-left: 20%;
+}
+header {
+  background-image: url("img/background.jpg");
+  height: 250px;
+}
+.title {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  line-height: 250px;
+}
+form {
+  display: block;
+  height: 500px;
+}
+.item {
+  display: block;
+}
+aside {
+  float: right;
+}
+footer {
+  display: inline flow-root list-item;
+}
+p {
+  width: 75%;
+
+  margin: 20px;
+  float: left;
+}
+.container {
+  margin: 0 100px;
+}
