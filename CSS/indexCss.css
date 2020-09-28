@@ -1,0 +1,82 @@
+/*  Reset le CSS embarqué du navigateur */
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.bandeauHaut
+{
+	background-color: #0000FF;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.bandeauHautTitre
+{
+	color: #FFFFFF;
+	padding-top: 10px;
+	margin-left: 20%;
+}
+
+.banniere
+{
+	float: left;
+	width: 100%;
+	height: 150px;
+	background-image: url('../Images/background.jpg');
+}
+
+.banniereTitre
+{
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 150px;
+}
+
+.imgDiv
+{
+	float: left;
+}
+
+.divChoixChat
+{
+	float: left;
+}
+
+.divRaisonAdopt
+{
+	float: left;
+}
+
+.divBas
+{
+	background-color: #DDDDDD;
+}
+
+.divBasLogo
+{
+	background-color: #AAAAAA;
+}
+
+.bandeauBas
+{
+	background-color: #0000FF;
+}
+
+.credits
+{
+	color: #FFFFFF;
+	height: 25px;
+	text-align: right;
+	padding-top: 5px;
+	margin-right: 10px;
+}
+
+.clearFix
+{
+	clear: both;
+}
