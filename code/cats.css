@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: cursive;
+}
+
+.div_title {
+  background-color: #061339;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+}
+
+h1 {
+  color: white;
+  margin-left: 20%;
+  font-size: 1em;
+}
+
+.div_slogan {
+  background-image: url("img/background.jpg");
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}

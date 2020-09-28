@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>OhMyCats</title>
-    <link rel="stylesheet" href="/css/cats.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cats.css">
   </head>
   <body>
     <div class="div_title">
@@ -18,12 +19,11 @@
         <form action="index.html" method="post">
               <label for="chats">Choix du chat :</label>
               <select name="chats" size="1">
-              <option>-- Sélectionnez --
-              <option>Sushi
-              <option>Chapie
-              <option>Soquette
+              <option value="">Sélectionnez
+              <option value="sushi">Sushi
+              <option value="chapie">Chapie
+              <option value="soquette">Soquette
               </select>
-
               <label for="adoption">Raison d'adoption :</label>
               <textarea name="adoption" rows="8" cols="80"></textarea>
               <button type="button" name="button">Envoyer</button>
@@ -38,5 +38,6 @@
     <div class="div_footer">
       <p>©OhMyCats</p>
     </div>
+    <!-- <div class="clear"></div> inline-block -->
   </body>
 </html>
