@@ -1,0 +1,52 @@
+header.page-header {
+    background: left/contain url(./img/background.jpg);
+    display: flex;
+    height: 300px;
+    min-width: 300px;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+    display: inline-block;
+    font-size: 30px;
+    margin: 50%;
+}
+
+nav{
+    background-color: black; 
+    color: white; 
+    
+}
+
+.chatAdopt {
+  display: block;
+  background-color: #d9d9d9;
+  
+}
+.chatText{
+    margin-left: 25%;
+}
+
+p{
+    text-align: justify;
+    vertical-align: middle;
+
+}
+
+.teteChat {
+    float: right;
+    background-color: black;
+    margin-left: 5px;
+
+
+}
+
+.teteChat > img{
+    height: 150px;
+    background-color: black;
+    vertical-align: middle;
+    position: relative;
+    margin-top: -60px;
+}
