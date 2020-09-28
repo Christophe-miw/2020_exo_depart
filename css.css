@@ -1,0 +1,14 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    height: 30px;
+    background-color: blue;
+}
+#bandeau{
+    height: 230px;
+    background-image: url(img/background.jpg);
+}
