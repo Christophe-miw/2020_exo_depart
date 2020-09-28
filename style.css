@@ -1,0 +1,34 @@
+*{
+	margin: 0 ;
+	padding: 0 ;
+}
+
+.titre h1 {
+  text-align: center;
+  background-color: #061339 ;
+  color: white;
+}
+
+.background {
+
+	background-image: url('img/background.jpg');
+	height: 150px;
+
+	
+}
+
+.background h2 {
+	text-align: right;
+	color: white;
+	font-size: 2rem;
+	padding-top: 3rem;
+} 
+
+.formulaire {
+	text-align: center;
+	border: 5px; 
+}
+
+.formulaire .titre_formulaire h2{
+	color: #5878a9 ;
+}
