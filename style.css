@@ -1,0 +1,28 @@
+* {
+    padding:0;
+    margin:0;
+}
+#Header {
+    height:180px;
+    background-image: url(img/background.jpg);
+    background-repeat:repeat-x;
+}
+
+#Titre1   {
+    color:white;
+    background-color:#003399;
+    padding-left:100px;
+    height:25px;
+}
+
+#TitrePrincipal{
+    line-height: 100px;
+    color:white;
+    text-align:center;
+}
+
+/*
+* Pour mettre 2 div cote â cote
+* display inline-block
+* Float
+* sortir du float : faire autre div (vide) avec une class : (clear-fix) -> clear:both)
