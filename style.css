@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h1,h2{
+    color: white;
+}
+
+h1{
+    margin-left: 250px;
+    font-size: 18px;
+}
+.entete{
+    background-color: midnightblue;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+h2{
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.background_cat{
+    background-image: url("img/background.jpg");
+    height: 250px;
+    line-height: 250px;
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.formulaire{
+    float: left;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20vh;
+    border: 1px solid black;
+}
+
+label{
+    margin: 10px;
+}
+
+.carroussel{
+    float: right;
+    margin-right: 15%;
+    margin-top: 5vh;
+}
+.img_carroussel{
+    height: 350px;
+}
+h3{
+    color: midnightblue;
+    margin: 20px;
+    padding-top: 10px;
+}
+footer{
+    background-color: darkgrey;
+    bottom: 0;
+    text-align: center;
+}
