@@ -1,4 +1,29 @@
+:root{
+    --hauteur_bandeau: 40px;
+    --hauteur_header: 22vh
+}
+
 *{
     margin:0;
     padding: 0;
+}
+#top-bandeau{
+    background-color:blue;
+    height: var(--hauteur_bandeau);
+}
+#logo{
+    line-height: var(--hauteur_bandeau);
+    vertical-align: middle;
+}
+#header{
+    height: var(--hauteur_header);
+    width: 100%;
+    background-image: url('../img/background.jpg');
+}
+#header h1{
+    color:red;
+    line-height: var(--hauteur_header);
+    vertical-align: middle;
+    text-align: center;
+ 
 }
