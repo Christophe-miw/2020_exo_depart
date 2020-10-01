@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <div id="header">
+        <div class="container">
+            <h2>OhMyCats !</h2>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="container">
+            <h1>Adoptez un chat trop bon !</h1>
+        </div>
+    </div>
+    <div id="body">
+        <div class="container">
+            <div id="formulaire">
+                <h3>Les chats à adopter</h3>
+                <form>
+                    <fieldset>
+                    <label for="choix">Choix du chat :</label>
+                    <select id="choix">
+                    <option>-- Sélectionnez --</option>
+                    </select>
+                    <label for="raison">Raison d'adoption :</label>
+                    <textarea id="raison" rows="10" placeholder="Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat..."></textarea>
+                    <input type="submit" id="envoyer">
+                    </fieldset>
+                </form>
+            </div>
+            <div id="image">
+                <img src="img/chat.jpg"/>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
