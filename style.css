@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 div.wrap {
     max-width: 1440px;
     margin: 0 auto;
@@ -37,6 +41,7 @@ form {
     padding: 10px;
     height: 100%;
     margin: auto;
+    width: 80%;
 }
 
 img.carousel-cat {
@@ -67,8 +72,9 @@ select, textarea {
 }
 
 textarea {
-    height: 80%;
-    width: 100%;
+    min-height: 150px;
+    max-width: 100%;
+    display: block;
 }
 
 input[type=submit] {
