@@ -1,6 +1,9 @@
 body {
   margin: 0;
 }
+main {
+  margin: 0 50px;
+}
 .nav {
   width: 100%;
   background-color: rgb(0, 0, 95);
@@ -15,6 +18,9 @@ header {
   background-image: url("img/background.jpg");
   height: 250px;
 }
+section {
+  float: left;
+}
 .title {
   text-align: center;
   font-size: 45px;
@@ -24,6 +30,7 @@ header {
 form {
   display: block;
   height: 500px;
+  line-height: 20px;
 }
 .item {
   display: block;
