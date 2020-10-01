@@ -1,0 +1,48 @@
+.bloc-gris1{
+    border: 1px solid black;
+    background-color: #aaaaaa;
+}
+.bloc-gris2{
+    border: 1px solid black;
+    background-color: #cccccc;
+}
+.center{
+    width: 800px;
+    margin: 0 auto;
+}
+.bandeau{
+    background-color: blue;
+    height: 40px;
+}
+.header{
+    background-color: green;
+    height: 170px;
+}
+.section1{
+    background-color:red;
+    height: 300px;
+}
+.container{
+    background-color: aqua;
+    width: 800px;
+}
+.formulaire{
+    display: inline-block;
+    background-color: pink;
+    width: 30%;
+    height: 200px;
+}
+.image-section1{
+    display: inline-block;
+    background-color: rosybrown;
+    width: 69%;
+    height: 200px;
+}
+.section2{
+    background-color:purple;
+    height: 300px;
+}
+.section2-text{
+    display: inline-block;
+    height: 50px;
+}
