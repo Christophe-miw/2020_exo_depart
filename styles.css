@@ -131,8 +131,11 @@ button {
 
 .titreForm{
     font-size: 25px;
-    margin-left: 12%;
+    margin-left: 10%;
 }  
+.form{
+    padding-top: 1%;
+}
 
 /* image chat */
 
@@ -149,33 +152,32 @@ button {
 
 
 
+/* partie texte + img */
 
-.chatAdopt {
-  display: block;
-  background-color: #d9d9d9;
-  
-}
-.chatText{
-    margin-left: 25%;
+.titreTexte{
+    font-size: 25px;
+    margin-left: 10%;
+    padding-top: 2%;
 }
 
-p{
-    text-align: justify;
-    vertical-align: middle;
-
+.paragraphe{
+    background-color: #D8D8D8;
 }
 
-.teteChat {
+.photoTeteChat{
     float: right;
-    margin-left: 5px;
-    
 
 }
 
-.teteChat > img{
-    height: 150px;
+.tete{
+    width: 45%;
+    height: auto;
     background-color: black;
-    vertical-align: middle;
-    position: relative;
-    margin-top: -60px;
+
+}
+
+.texte{
+    margin-left: 10%;
+    padding-bottom: 2%;
+    padding-right: 3%;
 }
