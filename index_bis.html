@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        .bloc {
+            border: 1px solid black;
+            margin: 2px;
+            padding: 2px;
+            min-height: 50px;
+            background-color: lightgrey;
+        }
+        .bloc-centre {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 0;
+        }
+        .bloc-centre div {
+            display: inline-block;
+            margin: 0;
+        }
+        .bloc-petit {
+            width: 30%;
+        }
+        .bloc-grand {
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div class="bloc"></div>
+    <div class="bloc"></div>
+    <div class="bloc bloc-centre">
+        <div class="bloc bloc-petit"></div>
+        <div class="bloc bloc-grand"></div>
+    </div>
+    <div class="bloc">
+        <div class="bloc bloc-centre"></div>
+    </div>
+    <div class="bloc"></div>
+
+</body>
+</html>
