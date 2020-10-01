@@ -1,14 +1,29 @@
-
-*{
-    padding: 0px;
-    margin: 0px;
+.block{
+    border: 1px solid black;
+    background-color: grey;
+    margin: 2px;
+    height: 100px;
 }
 
-header{
-    height: 30px;
-    background-color: blue;
+#center{
+    margin: 0 auto;
+    width: 50%;
+
 }
-#bandeau{
-    height: 230px;
-    background-image: url(img/background.jpg);
+
+.form{
+    display: inline-block;
+    width: 30%;
+}
+.image{
+    display: inline-block;
+    width: 69%;
+}
+
+.text{
+    border: 1px solid black;
+    background-color: grey;
+    margin: 2px;
+    height: 40px;
+
 }
