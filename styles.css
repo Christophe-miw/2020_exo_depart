@@ -45,6 +45,7 @@ table {
 }
 
 /*header */
+
 .page-header {
     background: left/contain url(./img/background.jpg);
     display: flex;
@@ -53,6 +54,7 @@ table {
     align-items: center;
     color: #fff;
     text-shadow: #000 0 0 .2em;
+
 }
 .page-header > h1 {
     display: inline;
@@ -134,8 +136,17 @@ button {
     margin-left: 10%;
 }  
 .form{
-    padding-top: 1%;
+    padding-top: 2%;
 }
+
+.menuDeroulant{
+  padding-bottom: 5%;
+}
+
+.area{
+  padding-bottom: 2%;
+}
+
 
 /* image chat */
 
@@ -150,6 +161,11 @@ button {
 
 }
 
+
+.formEtChat{
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
 
 
 /* partie texte + img */
