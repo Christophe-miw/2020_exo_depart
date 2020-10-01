@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ddd25c0-49dc-45c9-86d1-c78b48e2fb5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index_bis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1i8LymeBhxx3WvkHj7IxALul81o" />
   <component name="ProjectViewState">
@@ -48,10 +48,29 @@
       <updated>1601284529265</updated>
       <workItem from="1601284530634" duration="5298000" />
       <workItem from="1601559235407" duration="2680000" />
+      <workItem from="1601562233528" duration="280000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="disposition des div" />
+    <option name="LAST_COMMIT_MESSAGE" value="disposition des div" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="793" y="94" width="794" height="851" key="CommitChangelistDialog2" timestamp="1601561974538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="793" y="94" width="794" height="851" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601561974538" />
+    <state x="790" y="245" width="800" height="549" key="Vcs.Push.Dialog.v2" timestamp="1601562039151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="245" width="800" height="549" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601562039151" />
+    <state x="1003" y="439" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601562238877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1003" y="439" width="383" height="166" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601562238877" />
   </component>
 </project>
