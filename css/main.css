@@ -1,0 +1,161 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: aliceblue;
+}
+
+body{
+  margin: 0;
+}
+
+header{
+  background-color: #022238;
+  height: 75px;
+  line-height:75px;
+}
+h1, h2{
+	font-family: 'Dancing Script', cursive;
+}
+
+header h2{
+  color: white;
+  vertical-align: middle;
+  margin-left: 35px;
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+}
+#titre-article{
+  width: 100%;
+  text-align: center;
+  height: 175px;
+  line-height: 175px;
+  background-image: url('https://i.ibb.co/0Cxh8sR/background.jpg');
+}
+#titre-article h1{
+  vertical-align: middle;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.container{
+	
+	width: 65%;
+	margin: 0 auto;
+}
+.formulaire{
+  margin: 20px;
+  border: 1px solid grey;
+  padding: 5px;
+	width:20%;
+  display: inline-block;
+	vertical-align: top;
+
+}
+.formulaire label{
+  font-weight:bold;
+}
+.formulaire h2{
+  color: #022238;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+#boite-formulaire{
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+#boite-formulaire select,
+#boite-formulaire textarea{
+  width: 100%;
+  display: block;
+}
+.slider{
+	display: inline-block;
+ 	margin: 20px;
+	vertical-align: top;
+
+}
+#top-container{
+	margin: 0 auto;
+    width: 65%; 
+}
+input{
+	width: 100%;
+	display: block;
+	background-color: lightgreen;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: none;
+	box-shadow: none;
+}
+textarea{
+	height:200px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#bottom-background{
+	background-color: grey;
+	width: 100%;
+}
+.container > #text{
+	display: inline-block;
+	width: 60%;	
+	vertical-align: top;
+}
+.container > #image{
+	display: inline-block;
+	width: 30%;	
+}
+.container > #image > img{
+	height: 130px;
+}
+footer{
+   	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+	height: 40px;	
+  	background-color: #022238;
+	text-align: right;
+	color: white;
+}
+footer p{
+	display: block;
+	margin: 7px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
