@@ -34,11 +34,8 @@ div.banner h2 {
 }
 
 div.form-container {
-    /* display: inline-block; */
     vertical-align: middle;
-    width: 40%;
-    margin: auto;
-    float: left;
+    display: inline-block;
 }
 
 form {
@@ -50,9 +47,9 @@ form {
 
 img.carousel-cat {
     vertical-align: middle;
-    /* display: inline-block; */
-    width: 50%;
-    float: right;
+    width: 60%;
+    display: inline-block;
+    margin-left: auto;
 }
 
 section#adoption {
@@ -89,4 +86,22 @@ input[type=submit] {
     border: none;
     padding: 10px 0;
     border-radius: 5px;
+}
+
+section#description {
+    padding: 50px 0;
+}
+div.text-container, div.container img {
+    vertical-align: top;
+    display: inline-block;
+}
+div.container img {
+    width: 20%;
+}
+div.text-container{
+    width: 70%;
+    line-height: 120%;
+}
+div.text-container p:not(:last-child){
+    margin-bottom: 25px;
 }
