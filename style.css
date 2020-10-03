@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+div.clear {
+    clear: both;
+}
+
 div.wrap {
     max-width: 1440px;
     margin: 0 auto;
@@ -30,29 +34,30 @@ div.banner h2 {
 }
 
 div.form-container {
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
+    width: 40%;
+    margin: auto;
+    float: left;
 }
 
 form {
     border: 1px solid #bbbbbb;
-    margin-right : 20px;
     text-align: left;
     padding: 10px;
     height: 100%;
-    margin: auto;
-    width: 80%;
 }
 
 img.carousel-cat {
     vertical-align: middle;
-    display: inline-block;
+    /* display: inline-block; */
     width: 50%;
+    float: right;
 }
 
 section#adoption {
     background-color: #F1F1F1;
-    padding-top: 50px;
+    padding: 50px 0;
     text-align: center;
 }
 
