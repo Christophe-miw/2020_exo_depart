@@ -15,7 +15,7 @@ body {
 
 .container {
     max-width: 1100px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #banner {
@@ -27,8 +27,9 @@ body {
     line-height: 180px;
 }
 
-#body {
-    margin: 30px;
+#section1 {
+    display: inline-block;
+    margin: 10px;
 }
 
 #formulaire h3 {
@@ -53,6 +54,27 @@ input#envoyer {
 
 img {
     max-width: 100%;
+}
+
+#section2 {
+    display: inline-block;
+    background-color: #DDD;
+}
+
+#section2 h2 {
+    color: #061339;
+    margin-bottom: 20px;
+}
+
+#texte {
+    width: 70%;
+    float: left;
+}
+
+#tete-chat {
+    width: 30%;
+    float: right;
+    background-color: #7A86A2;
 }
 
 @media (min-width: 768px) {
