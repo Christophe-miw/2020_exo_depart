@@ -7,7 +7,7 @@ body {
     background-color: #f1f1f1;
 }
 
-#header {
+header {
     background-color: #061339;
     color: white;
     padding: 12px;
@@ -77,7 +77,7 @@ img {
     background-color: #7A86A2;
 }
 
-#footer {
+footer {
     background-color: #061339;
     color: #FFF;
     text-align: right;
