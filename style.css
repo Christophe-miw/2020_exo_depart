@@ -2,25 +2,35 @@
     margin: 0;
     padding: 0;
 }
-.topTitle{
-    background-color: midnightblue;
-    color: white;
-    padding-left: 10%;
+
+.inner{
+    width: 970px;
+    margin: 0 auto;
 }
 
-.titre{
+.txtcenter{
     text-align: center;
+}
+
+.toptitle{
+    background-color: rgba(25, 25, 112, 1) ;
+    color: rgba(255, 255, 255, 1);
+}
+
+.bottomtitle{
     background-image: url("img/background.jpg");
+    height: 288px;
+    line-height: 288px;
 }
 
-.formulaire{
-    margin: auto;
+.form{
+    display: inline-block;
+    width: 40%;
 }
 
-
-
-.chatG{
-    float: right;
+.img{
+    display: inline-block;
+    width: 59%;
 }
 
 .clear{
