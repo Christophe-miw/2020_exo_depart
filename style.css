@@ -30,6 +30,7 @@ header {
 #section1 {
     display: inline-block;
     margin: 10px;
+    width: 100%;
 }
 
 #formulaire h3 {
@@ -59,6 +60,7 @@ img {
 #section2 {
     display: inline-block;
     background-color: #DDD;
+    width: 100%;
 }
 
 #section2 h2 {
@@ -67,12 +69,12 @@ img {
 }
 
 #texte {
-    width: 70%;
+    width: 80%;
     float: left;
 }
 
 #tete-chat {
-    width: 30%;
+    width: 20%;
     float: right;
     background-color: #7A86A2;
 }
