@@ -21,7 +21,7 @@ body {
 #banner {
     background-image: url("./img/background.jpg");
     height: 180px;
-    color: white;
+    color: #FFF;
     text-align: center;
     text-shadow: 0 0 3px black;
     line-height: 180px;
@@ -75,6 +75,13 @@ img {
     width: 30%;
     float: right;
     background-color: #7A86A2;
+}
+
+#footer {
+    background-color: #061339;
+    color: #FFF;
+    text-align: right;
+    padding: 10px;
 }
 
 @media (min-width: 768px) {
