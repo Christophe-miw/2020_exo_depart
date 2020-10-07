@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" view>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css.css">
-</head>
-<body>
-    <header class="block"></header>
+    <head>
+        <meta charset="UTF-8" view>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <header>
+            <div id="topTitle">OhMyCats !</div>
+            <div id="background">Adopter un chat trop bon !</div>
+        </header>
 
-    <div class="block"></div>
-    
-    <div class="block" id="center">
-        <div class="block" id="form"></div>   
-        <div class="block" id="image"></div>
-    </div>
+        <div class="center">
+            <div class="form_container">
+                <h2>Les chats à adopter</h2>
+                <form action="">
+                    <label for="">Choix du chat</label>
+                    <select name="pets" id="pet-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="dog">Bha ya rien enfaite</option>
+                    </select>
 
-    <div class="block">
-        <div class="text">
-            <p>
-
-            </p>
+                    <label for="">Raison dadoption :</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </form>
+            </div>
+            <div class="pict_container">
+                <img src="img/chat.jpg" alt="photo de chat">
+            </div>
         </div>
-    </div>
 
-    <footer class="block"></footer>
-    
-</body>
+        <div class="container">
+            <div class="center">
+                <div id="paragraph">
+                    <h2>Nos chats à adopter...</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Omnis non dolores voluptas reiciendis quos? 
+                        Eaque at consequatur cumque hic consequuntur 
+                        aspernatur. Voluptatem sit dolor 
+                        maxime nostrum nihil dolore deleniti voluptates!</p>
+                </div>
+                <div id="teteChat">
+                    <img src="img/tete-chat.png" alt="tete de chat">
+                </div>
+            </div>
+        </div>
+
+        <footer>OhMyCats</footer>
+    </body>
 </html>

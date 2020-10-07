@@ -1,30 +1,55 @@
-.block{
-    border: 1px solid black;
-    background-color: grey;
-    margin: 2px;
-    height: 100px;
+*{
+    padding: 0;
+    margin: 0;
+}
+#topTitle{
+    background-color: blue;
+    padding-left: 20%;
 }
 
-#center{
-    margin: 0 auto;
+#background{
+    height: 240px;
+    background-image: url(img/background.jpg);
+    background-repeat: repeat;
+    
+    font-size: 30px;
+    color: white;
+    text-shadow: black 2px 3px;
+    line-height: 240px;
+    text-align: center;
+}
+
+.center{
+    margin: 30px auto;
     width: 50%;
 
 }
-
-#form{
-    display: inline-block;
-    width: 30%;
-
+.form_container{
+display: inline-block;
+width: 24%;
 }
-#image{
-    display: inline-block;
-    width: 55%;
+.pict_container{
+display: inline-block;
+width: 75%;
 }
-
-.text{
-    border: 1px solid black;
+.container{
     background-color: grey;
-    margin: 2px;
-    height: 40px;
+    padding-bottom: 1px;
+}
+#paragraph{
+    display: inline-block;
+    width: 80%;
+    text-align: start;
+}
+#teteChat{
+    display: inline-block;
+    width: 10%;
 
+}
+#teteChat img{
+    height: 100px;
+}
+footer{
+    text-align: right;
+    background-color: blue;
 }
