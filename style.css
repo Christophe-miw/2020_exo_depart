@@ -7,7 +7,7 @@ div.clear {
 }
 
 div.wrap {
-    max-width: 1440px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -36,6 +36,7 @@ div.banner h2 {
 div.form-container {
     vertical-align: middle;
     display: inline-block;
+    margin-right: 50px;
 }
 
 form {
@@ -109,3 +110,12 @@ div.text-container{
 div.text-container p:not(:last-child){
     margin-bottom: 25px;
 }
+
+
+footer {
+    background-color: #061339;
+    padding: 10px;
+    color: white;
+    text-align: right;
+}
+

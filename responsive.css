@@ -1,0 +1,44 @@
+@media all and (max-width : 1240px) {
+    div.wrap {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width : 1240px) {
+    img.carousel-cat {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    div.form-container {
+        margin-right: 0;
+        width: 50%
+    }
+
+    div.text-container {
+        width: 100%;
+    }
+
+    div.container img {
+        width: 50%;
+        margin: 0 25%;
+    }
+}
+
+
+@media all and (max-width : 768px) {
+    div.form-container {
+        width: 90%;
+    }
+}
+
+
+@media all and (max-width : 481px) {
+    div.form-container {
+        width: 100%;
+    }
+    div.wrap {
+        width: 95%;
+    }
+}
