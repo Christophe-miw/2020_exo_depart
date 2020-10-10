@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    width: 800px;
+    margin: 0 auto;
+}
+.bandeau{
+    background-color: blue;
+    height: 40px;
+}
+.header{
+    background-color: green;
+    height: 170px;
+}
+.section1{
+    background-color:red;
+    height: 300px;
+    padding: 2%;
+}
+.container{
+    background-color: aqua;
+    width: 800px;
+}
+.formulaire{
+    display: inline-block;
+    background-color: pink;
+    width: 30%;
+    height: 200px;
+}
+.image-section1{
+    display: inline-block;
+    background-color: rosybrown;
+    width: 69%;
+    height: 200px;
+}
+.section2{
+    background-color:purple;
+    height: 300px;
+    padding: 2%;
+}
+.section2-text{
+    display: inline-block;
+    height: 80px;
+    width: 85%;
+    background-color: brown;
+}
+.section2-img{
+    display: inline-block;
+    background-color: chocolate;
+}
+.footer{
+    background-color:blue;
+    width: 100%;
+}
